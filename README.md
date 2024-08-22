@@ -1,38 +1,31 @@
-
-
 ---
 
-# Random Password Generator
+# Tic-Tac-Toe Game
 
 ## Introduction
 
-Welcome to the Random Password Generator! This web application allows you to create secure, random passwords quickly and easily. Built with HTML, CSS, and JavaScript, the app provides a straightforward interface for generating complex passwords to meet your security needs.
+This is a classic Tic-Tac-Toe game built using HTML, CSS, and JavaScript. The game features a simple and intuitive interface, with a unique focus on pure code—no images were used in the creation of this project. Additionally, it includes a hover effect that enhances the user experience by highlighting potential moves before they are made.
+
+Play Here: **https://nehra-tictactoe.netlify.app/**
 
 ## Features
 
-- **Strong Password Generation**: Includes uppercase letters, lowercase letters, numbers, and special characters.
-- **Instant Generation**: Generate a strong password with a single click.
-- **Single Click Copy**: Copy the password to the clipboard in a single click.
+- **Interactive Gameplay**: Play Tic-Tac-Toe with a friend in a turn-based format.
+- **Hover Effect**: Visual indication of the selected cell before making a move.
+- **No Images**: The entire game is designed and styled using only HTML, CSS, and JavaScript—no images were used.
+- **Simple UI**: Clean and straightforward design, focusing on the game itself.
 
 ## Usage
 
 1. Clone or download the repository.
 2. Open the `index.html` file in your browser.
-3. Click the "Generate Password" button.
-4. Copy the generated password to use it securely.
+3. Start playing the game by clicking on the cells to place your mark (X or O).
+4. After each move, The game will automatically check for a win or draw.
 
-## Customizing Password Length
+## How It Works
 
-To customize the length of the generated password:
-1. Open the `script.js` file located in the project directory.
-2. Locate the line `const length = 12;`.
-3. Change the value `12` to your desired password length.
-
-Example:
-
-```javascript
-const length = 16; // Set the password length to 16 characters
-```
+The game logic is implemented using JavaScript, which handles the turn-taking, win conditions, and reset functionality. The hover effect is achieved through CSS, providing a visual cue for the player’s next move. The design and gameplay elements were created without the use of any images, relying solely on code.
 ## Screenshots
+![image](https://github.com/user-attachments/assets/987e4ab2-af4d-485c-a49a-d0c68cbcdfd2)
 
-![image](https://github.com/user-attachments/assets/3fdd8045-111e-41e2-b44d-eb656b55523d)
+![image](https://github.com/user-attachments/assets/5a17c0d0-f76f-49aa-b758-69a462e331c8)
